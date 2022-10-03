@@ -5,11 +5,6 @@ How to Import Postman Collection
 1. Clone the repo
 2. take Assigment 2.postman_collection.json file and export in postman apps
 
-```bash
-# klik link and copy
-# go to postman and import
-```
-
 ## HOW TO CHECK & SET REMOTE GITHUB ?
 
 ```bash
