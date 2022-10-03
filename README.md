@@ -1,9 +1,12 @@
 # assigment-2-Hacktiv8
 ## POSTMAN
 
-How to Import Postman Collection 
-1. Clone the repo
-2. take Assigment 2.postman_collection.json file and export in postman apps
+[Link to import postman](https://www.getpostman.com/collections/7aa2df5137920a08cf06)
+
+```bash
+# klik link and copy
+# go to postman and import
+```
 
 ## HOW TO CHECK & SET REMOTE GITHUB ?
 
