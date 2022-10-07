@@ -19,13 +19,11 @@ router.post('/', function (req, res) {
     }
 
     else if (username1 == account.email && password1 != account.password) {
-
         var incorrectp = ("Invalid Password");
         res.json({ status: "error", message: incorrectp});
     }
 
     else if (username1 != account.email) {
-
         var incorrectu = ("Not a registered username");
         res.json({ status: "error", message: incorrectu});
     }
