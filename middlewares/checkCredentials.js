@@ -26,7 +26,7 @@ export const checkCredentials = async (req, res, next) => {
         const user = await account.email == decode.email;
 
         // check if user exists or not
-        if(user?.rowCount === 0) {
+        if(user.length === 0) {
             res.json({ status: "error", message: "authorization failed" });
             return;
         }
